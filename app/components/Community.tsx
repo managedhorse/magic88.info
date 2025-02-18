@@ -5,7 +5,7 @@ import GreenButton from "./GreenButton";
 export default function Community() {
   return (
     <section
-      className="min-h-screen w-full bg-[#040414] bg-[url('/app/images/laptoponrock.png')] bg-no-repeat bg-bottom bg-[length:100%_auto] md:bg-cover md:bg-center text-white flex items-start md:items-center"
+      className="min-h-screen w-full bg-[#040414] bg-[url('/app/images/laptoponrock.webp')] bg-no-repeat bg-bottom bg-[length:100%_auto] md:bg-cover md:bg-center text-white flex items-start md:items-center"
     >
       <div className="max-w-6xl mx-auto w-full px-4 pt-10 md:pt-0">
         {/* Mobile: single column; Desktop: 3-column grid */}

@@ -1,6 +1,6 @@
 // app/components/About.tsx
 import React from "react";
-import Laptop from "../images/laptopmockup.png";
+import Laptop from "../images/laptopmockup.webp";
 
 export default function About() {
   return (

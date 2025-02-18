@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Casino from "../images/88casinoicon.svg";
-import Laptop from "../images/laptopmockup.png";
+
 
 // Example slides data
 const slidesData = [

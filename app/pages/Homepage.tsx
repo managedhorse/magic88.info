@@ -12,7 +12,7 @@ import WhyChoose from "../components/WhyChoose";
 import Explore from "../components/Explore";
 import SeamlessGaming from "../components/SeamlessGaming";
 import Community from "../components/Community";
-import mainBg from "../images/mainbg.png";
+import mainBg from "../images/mainbg.webp";
 import Logo from "../images/logo.webp"
 import Why from "../images/whychoose.webp"
 
