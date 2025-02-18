@@ -3,24 +3,26 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Casino from "../images/88casinoicon.svg";
+import Laptop from "../images/laptopmockup.png";
 
 // Example slides data
 const slidesData = [
   {
     text: "Smooth and fast-loading gameplay with high-quality graphics.",
-    icon: "/app/images/88casinoicon.svg",
+    icon: Casino,
   },
   {
     text: "Optimized gaming for iOS and Android devices.",
-    icon: "/app/images/88casinoicon.svg",
+    icon: Casino,
   },
   {
     text: "Instant access to your favorite games with a user-friendly interface.",
-    icon: "/app/images/88casinoicon.svg",
+    icon: Casino,
   },
   {
     text: "Play seamlessly on desktop, mobile, or tablet—anytime, anywhere.",
-    icon: "/app/images/88casinoicon.svg",
+    icon: Casino,
   },
   // Add more items if desired
 ];

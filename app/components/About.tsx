@@ -1,5 +1,6 @@
 // app/components/About.tsx
 import React from "react";
+import Laptop from "../images/laptopmockup.png";
 
 export default function About() {
   return (
@@ -38,7 +39,7 @@ export default function About() {
         {/* Full-width image */}
         <div className="mt-20">
           <img
-            src="/app/images/laptopmockup.png"
+            src={Laptop} 
             alt="Laptop Mockup"
             className="w-full h-auto"
           />
