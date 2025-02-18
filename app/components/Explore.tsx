@@ -104,7 +104,7 @@ export default function Explore() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-start text-center md:text-left">
           {/* Left (1/4 on desktop, full width on mobile): Heading */}
           <div>
-            <h2 className="font-bold uppercase text-[24px] leading-snug font-montserrat">
+            <h2 className="font-extrabold uppercase text-[24px] leading-snug font-montserrat">
               A Wide Range of <br />
               <span className="text-[38px] font-extrabold text-[#C9FC01]">
                 GAMES TO EXPLORE
@@ -130,7 +130,7 @@ export default function Explore() {
         <div
           className="max-w-6xl mx-auto px-0 mt-10"
           style={{
-            backgroundImage: "url('/app/images/explore-bg.png')",
+            
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
