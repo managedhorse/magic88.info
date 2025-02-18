@@ -15,7 +15,7 @@ export default function Community() {
             <h3 className="font-montserrat text-4xl md:text-5xl font-extrabold uppercase leading-tight text-white md:text-left text-center">
               Join the Magic88
             </h3>
-            <h2 className="font-montserrat text-4xl md:text-5xl font-extrabold uppercase leading-tight text-[#C9FC01] mt-2 tmd:text-left text-center">
+            <h2 className="font-montserrat text-4xl md:text-5xl font-extrabold uppercase leading-tight text-[#C9FC01] mt-2 md:text-left text-center">
               Community Today!
             </h2>
             {/* Paragraph */}
