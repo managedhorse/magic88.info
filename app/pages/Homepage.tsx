@@ -14,6 +14,7 @@ import SeamlessGaming from "../components/SeamlessGaming";
 import Community from "../components/Community";
 import mainBg from "../images/mainbg.png";
 import Logo from "../images/logo.webp"
+import Why from "../images/whychoose.webp"
 
 
 export default function Homepage() {
@@ -80,7 +81,7 @@ export default function Homepage() {
       <div
   className="bg-no-repeat bg-top"
   style={{
-    backgroundImage: "url('/app/images/whychoose.webp')",
+    backgroundImage: `url(${Why})`,
     backgroundSize: "cover",
   }}
 >

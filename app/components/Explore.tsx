@@ -2,63 +2,83 @@
 import React, { useState } from "react";
 import GreenButton from "./GreenButton";
 import { motion, AnimatePresence } from "framer-motion";
+import explore1 from "../images/explore1.png";
+import explore2 from "../images/explore2.png";
+import explore3 from "../images/explore3.png";
+import explore4 from "../images/explore4.png";
+import explore5 from "../images/explore5.png";
+import explore6 from "../images/explore6.png";
+import explore7 from "../images/explore7.png";
+import explore8 from "../images/explore8.png";
+import explore9 from "../images/explore9.png";
+import exp1 from "../images/exp1.svg";
+import exp2 from "../images/exp2.svg";
+import exp3 from "../images/exp3.svg";
+import exp4 from "../images/exp4.svg";
+import exp5 from "../images/exp5.svg";
+import exp6 from "../images/exp6.svg";
+import exp7 from "../images/exp7.svg";
+import exp8 from "../images/exp8.svg";
+import exp9 from "../images/exp9.svg";
+
+
 
 // Updated card data with new image file names.
 const ALL_CARDS = [
   {
     title: "Live Dealer Games",
-    titleIcon: "/app/images/exp1.svg",
+    titleIcon: exp1,
     description: "Enjoy real-time casino action with professional dealers.",
-    cardImage: "/app/images/explore1.png",
+    cardImage: explore1,
   },
   {
     title: "Slot Machine",
-    titleIcon: "/app/images/exp2.svg",
+    titleIcon: exp2,
     description: "Featuring classic, video, and progressive jackpot slots.",
-    cardImage: "/app/images/explore2.png",
+    cardImage: explore2,
   },
   {
     title: "Sports Betting",
-    titleIcon: "/app/images/exp3.svg",
+    titleIcon: exp3,
     description: "Bet on your favorite sports and live matches.",
-    cardImage: "/app/images/explore3.png",
+    cardImage: explore3,
   },
   {
     title: "Hash Game",
-    titleIcon: "/app/images/exp4.svg",
+    titleIcon: exp4,
     description: "Engage in blockchain-based provably fair gaming.",
-    cardImage: "/app/images/explore4.png",
+    cardImage: explore4,
   },
   // Additional cards revealed upon "View More Games"
   {
     title: "Virtual Racing",
-    titleIcon: "/app/images/exp5.svg",
+    titleIcon: exp5,
     description: "Experience fast-paced virtual horse and car races.",
-    cardImage: "/app/images/explore5.png",
+    cardImage: explore5,
   },
   {
     title: "Poker",
-    titleIcon: "/app/images/exp6.svg",
+    titleIcon: exp6,
     description: "Join tournaments or casual tables with friends and pros.",
-    cardImage: "/app/images/explore6.png",
+    cardImage: explore6,
   },
   {
     title: "Lottery",
-    titleIcon: "/app/images/exp7.svg",
+    titleIcon: exp7,
     description: "Test your luck with quick draws and big jackpots.",
-    cardImage: "/app/images/explore7.png",
+    cardImage: explore7,
   },
   {
     title: "Arcade Games",
-    titleIcon: "/app/images/exp8.svg",
+    titleIcon: exp8,
     description: "Enjoy casual, skill-based arcade titles with fun twists.",
-    cardImage: "/app/images/explore8.png",
+    cardImage: explore8,
   },
   {
     title: "Extra Games",
-    titleIcon: "/app/images/exp9.svg",
+    titleIcon: exp9,
     description: "Discover even more games with unique challenges.",
-    cardImage: "/app/images/explore9.png",
+    cardImage: explore9,
   },
 ];
 
