@@ -15,8 +15,8 @@ export default function WhiteButton({ children, onClick }: WhiteButtonProps) {
         bg-white
         text-black
         font-inter
-        px-6
-        py-3
+        px-4 py-2.5   /* Smaller default for mobile */
+        md:px-6 md:py-3  /* Larger on medium and above */
         rounded-2xl
         border-2 
         border-transparent

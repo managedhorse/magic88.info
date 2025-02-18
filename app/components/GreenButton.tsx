@@ -14,11 +14,11 @@ export default function GreenButton({ children, onClick }: GreenButtonProps) {
         bg-[#C9FC01]
         text-black
         font-inter
-        px-6
-        py-3
+        px-4 py-2.5   /* Smaller default for mobile */
+        md:px-6 md:py-3  /* Larger on medium and above */
         rounded-2xl
         border-2 
-        border-transparent  /* <-- Always have a 2px border, but transparent */
+        border-transparent
         transition-all
         duration-300
         ease-in-out
