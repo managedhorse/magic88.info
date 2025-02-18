@@ -1,5 +1,5 @@
 // app/components/Explore.tsx
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import GreenButton from "./GreenButton";
 import { motion, AnimatePresence } from "framer-motion";
 import explore1 from "../images/explore1.webp";
@@ -88,6 +88,14 @@ export default function Explore() {
   // Split the cards array into two groups.
   const initialCards = ALL_CARDS.slice(0, 4);
   const extraCards = ALL_CARDS.slice(4);
+  
+  // Preload extra card images on mount
+  useEffect(() => {
+    extraCards.forEach((card) => {
+      const img = new Image();
+      img.src = card.cardImage;
+    });
+  }, [extraCards]);
 
   return (
     <section id="explore" className="w-full py-16 text-white">
