@@ -216,7 +216,7 @@ export default function Explore() {
             </motion.div>
           )}
         </AnimatePresence>
-
+        
         {/* "View More Games" Button */}
         <div className="mt-16 text-center">
           <GreenButton onClick={() => setShowMore(!showMore)}>
@@ -224,6 +224,11 @@ export default function Explore() {
           </GreenButton>
         </div>
       </div>
+      <div style={{ display: "none" }}>
+  {extraCards.map((card, idx) => (
+    <img key={idx} src={card.cardImage} alt={card.title} />
+  ))}
+</div>
     </section>
   );
 }
