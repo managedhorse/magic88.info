@@ -23,7 +23,7 @@ export default function Homepage() {
     const el = document.getElementById("read-more");
     if (el) {
       // Apply offset only if the viewport is less than 768px (mobile)
-      const offset = window.innerWidth < 768 ? -110 : 0;
+      const offset = window.innerWidth < 768 ? -0 : 0;
       const y = el.getBoundingClientRect().top + window.scrollY - offset;
       window.scrollTo({ top: y, behavior: "smooth" });
     }
