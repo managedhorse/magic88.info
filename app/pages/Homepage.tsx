@@ -31,7 +31,7 @@ export default function Homepage() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative h-screen bg-cover bg-center text-white" style={{ backgroundImage: `url(${mainBg})` }}>
+      <div className="relative h-[90vh] md:h-screen bg-cover bg-center text-white" style={{ backgroundImage: `url(${mainBg})` }}>
         <Navbar />
 
         {/* Main Hero Content */}
