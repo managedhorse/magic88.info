@@ -1,5 +1,11 @@
 // app/components/WhyChoose.tsx
 import React from "react";
+import Choose1 from "../images/choose1.svg";
+import Choose2 from "../images/choose2.svg";
+import Choose3 from "../images/choose3.svg";
+import Choose4 from "../images/choose4.svg";
+import Choose5 from "../images/choose5.svg";
+import Choose6 from "../images/choose6.svg";
 
 export default function WhyChoose() {
   return (
@@ -22,8 +28,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose1.svg')",
-                  maskImage: "url('/app/images/choose1.svg')",
+                    WebkitMaskImage: `url(${Choose1})`,
+                    maskImage: `url(${Choose1})`,
                 }}
               ></span>
               <h3 className="text-2xl font-bold font-montserrat uppercase text-[#C9FC01]">
@@ -42,8 +48,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose2.svg')",
-                  maskImage: "url('/app/images/choose2.svg')",
+                    WebkitMaskImage: `url(${Choose2})`,
+                    maskImage: `url(${Choose2})`,
                 }}
               ></span>
               <h3 className="text-2xl font-bold font-montserrat uppercase text-[#C9FC01]">
@@ -62,8 +68,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose3.svg')",
-                  maskImage: "url('/app/images/choose3.svg')",
+                    WebkitMaskImage: `url(${Choose3})`,
+                    maskImage: `url(${Choose3})`,
                 }}
               ></span>
               <h3 className="text-2xl font-bold font-montserrat uppercase text-[#C9FC01]">
@@ -82,8 +88,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose4.svg')",
-                  maskImage: "url('/app/images/choose4.svg')",
+                    WebkitMaskImage: `url(${Choose4})`,
+                    maskImage: `url(${Choose4})`,
                   
                 }}
               ></span>
@@ -102,8 +108,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose5.svg')",
-                  maskImage: "url('/app/images/choose5.svg')",
+                    WebkitMaskImage: `url(${Choose5})`,
+                    maskImage: `url(${Choose5})`,
                 }}
               ></span>
               <h3 className="text-2xl font-bold font-montserrat uppercase text-[#C9FC01]">
@@ -122,8 +128,8 @@ export default function WhyChoose() {
               <span 
                 className="icon-gradient group-hover:animate-ripple flex-shrink-0"
                 style={{
-                  WebkitMaskImage: "url('/app/images/choose6.svg')",
-                  maskImage: "url('/app/images/choose6.svg')",
+                    WebkitMaskImage: `url(${Choose6})`,
+                    maskImage: `url(${Choose6})`,
                 }}
               ></span>
               <h3 className="text-2xl font-bold font-montserrat uppercase text-[#C9FC01]">

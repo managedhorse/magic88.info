@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import logo from "../images/logo.webp";
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -55,7 +57,7 @@ export default function Navbar() {
               className="hover:opacity-80"
             >
               <img
-                src="/app/images/logo.webp"
+                src={logo}
                 alt="Magic88 Logo"
                 className="h-10 object-contain"
               />
@@ -95,7 +97,7 @@ export default function Navbar() {
           {/* Logo on the left */}
           <a href="#explore" onClick={scrollToExplore}>
             <img
-              src="/app/images/logo.webp"
+              src={logo}
               alt="Magic88 Logo"
               className="h-10 object-contain"
             />
@@ -157,7 +159,7 @@ export default function Navbar() {
         <li className="mt-4">
           <a href="#explore" onClick={scrollToExplore}>
             <img
-              src="/app/images/logo.webp"
+              src={logo}
               alt="Magic88 Logo"
               className="h-10 object-contain"
             />

@@ -8,6 +8,7 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
+import logo from "../images/logo.webp";
 
 export default function Footer() {
   return (
@@ -17,7 +18,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <img
-            src="/app/images/logo.webp"
+            src={logo}
             alt="Magic88 Logo"
             className="h-10 object-contain mx-auto md:mx-0 mb-4 md:mb-0"
           />
