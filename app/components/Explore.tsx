@@ -106,7 +106,7 @@ export default function Explore() {
           <div>
             <h2 className="font-bold uppercase text-[24px] leading-snug font-montserrat">
               A Wide Range of <br />
-              <span className="text-[38px] text-[#C9FC01]">
+              <span className="text-[38px] font-extrabold text-[#C9FC01]">
                 GAMES TO EXPLORE
               </span>
             </h2>
