@@ -10,4 +10,7 @@ export default defineConfig({
     tsconfigPaths(),
     // Possibly add any other needed plugins
   ],
+  build: {
+    assetsInlineLimit: 0, // disables inlining for all assets
+  },
 });
